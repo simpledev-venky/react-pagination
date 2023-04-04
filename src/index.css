@@ -1,0 +1,50 @@
+
+*{
+  margin: 0;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  /* border: .4rem solid green; */
+}
+
+body {
+  
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.active-btn{
+  background-color: #c82424;
+  color: aliceblue;
+}
+
+button{
+  font-size: 1.2rem;
+  margin: .4rem;
+  padding: .6rem;
+  border-radius: .4rem;
+  border: none;
+  background: #a49b9b;
+}
+header{
+background-color: #4780f1;
+text-align: center;
+color: aliceblue;
+padding: .4rem;
+font-style: italic;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.btn-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.comts-div{
+border: 2px solid blueviolet;
+text-align: center;
+margin: .4rem auto;
+width: 80%;
+border-radius: 1rem;
+}
